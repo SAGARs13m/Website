@@ -1,0 +1,12 @@
+.pic{
+    width:1000px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

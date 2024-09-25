@@ -1,0 +1,39 @@
+.head{
+  text-align:center; 
+  font-size:30px;
+  text-decoration: underline;
+}
+
+.aligned {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+span {
+    padding: 30px;
+    float: left;
+    width: 50%;
+    font-size: 25px;
+    font-family: 'sans-serif';
+}
+.column {
+    float: left;
+    width: 32%;
+    padding: 5px;
+  }
+  
+  .width{
+    width: 100%;
+  }
+  .text{
+    text-align:center; 
+    font-size:25px; 
+    color:red;
+  }
+
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
